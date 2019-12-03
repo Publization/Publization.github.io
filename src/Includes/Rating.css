@@ -1,0 +1,11 @@
+.Rating > svg {
+    margin-right: 10px
+}
+
+.Rating > svg:last-child {
+    margin-right: 0px
+}
+
+.Rating {
+    margin-top: 12px
+}

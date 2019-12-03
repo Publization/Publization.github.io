@@ -1,0 +1,13 @@
+.WeEat-Name {
+    font-size: 21px;
+    font-weight: 555
+}
+
+.WeEat > *:not(img) {
+    margin-top: 20px
+}
+
+.WeEat a {
+    text-decoration: none;
+    font-size: 13px
+}

@@ -1,0 +1,21 @@
+.Footer {
+    margin-top: 200px
+}
+
+.Websites-Brand > a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    cursor: pointer
+}
+
+.Websites-Brand > a:last-child {
+    margin-right: 0px
+}

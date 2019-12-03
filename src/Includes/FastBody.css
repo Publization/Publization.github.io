@@ -1,0 +1,382 @@
+.FastnD-Truck {
+    border-radius: 145px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    margin-left: 80px
+}
+
+.FastBody-Body > div {
+    margin-top: 180px;
+}
+
+.FastBody {
+    margin-top: 65px;
+}
+
+.DText {
+    font-size: 55px;
+    font-weight: bold
+}
+
+.UnderScore {
+    margin-top: -50px;
+    margin-left: 4px
+}
+
+.NoteText {
+    color: #444;
+    font-size: 13px
+}
+
+.DText-Cont {
+    width: 266px
+}
+
+.DTextNText {
+    margin-top: 25px;
+    line-height: 24px
+}
+
+.FastBody-Body {
+    padding: 0px 100px
+}
+
+.Hungry-Steps {
+    margin-top: 35px
+}
+
+.Hungry-Steps > div {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    padding: 25px 50px;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    max-width: 100px
+}
+
+.Hungry-Steps img {
+    width: 100px;
+    height: 80px;
+    border-radius: 7px;
+    margin-bottom: 15px
+}
+
+.Hungry-Steps > div > div {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    font-weight: 555
+}
+
+.Meals-Cont > div {
+    margin-top: 100px
+}
+
+.Read-Sug > a {
+    font-size: 17px;
+    padding: 15px 50px
+}
+
+.WeEat-Cont {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.WeEat-Cont > div {
+    width: 200px
+}
+
+.WeEat-Cont img {
+    width: 100%;
+    height: 170px;
+    border-radius: 6px
+}
+
+.Dessert-Cont > .Title-Cont {
+    width: 30%
+}
+
+.Desserts {
+    width: 60%
+}
+
+.Desserts > div:not(:first-child) {
+    margin-top: 10px
+}
+
+@media screen and (max-width: 1200px) {
+    .Meal {
+        flex-direction: column !important
+    }
+    
+    .Meal-Desc {
+        left: unset !important;
+        right: unset !important;
+        top: -26px
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    body {
+        background-image: url('../Images/BackgroundImage3.png')
+    }
+    
+    .Hungry-Steps, .WeEat-Cont, .Dessert-Cont {
+        flex-flow: nowrap column
+    }
+
+    .Hungry-Steps > div:not(:first-child), .WeEat-Cont > div:not(:first-child), .Desserts > div > div {
+        margin-top: 40px
+    }
+
+    .Dessert-Cont {
+        align-items: flex-start
+    }
+    
+    .Desserts {
+        width: 100%;
+        display: flex;
+        flex-flow: nowrap column;
+        align-items: center
+    }
+
+    .Desserts > div {
+        display: flex;
+        flex-flow: nowrap column
+    }
+
+    .Dessert-Cont > .Title-Cont {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url('../Images/BackgroundImage2.png')
+    }
+
+    .FastNav {
+        display: none;
+        border-radius: 3px;
+        padding: 10px 0px;
+        background-color: #fff;
+        width: 200px;
+        position: absolute;
+        right: 0px;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5)
+    }
+
+    .FastNav ul {
+        flex-flow: nowrap column;
+        padding: 0px;
+        margin: 0px
+    }
+
+    .FastNav ul > li {
+        text-align: center;
+        width: 100%;
+        padding: 11px 0px;
+        margin-right: 0px !important;
+        cursor: pointer
+    }
+
+    .FastNav ul > li:not(:last-child):hover {
+        background-color: #eee
+    }
+
+    .FastNav ul > li:last-child {
+        margin-top: 10px
+    }
+
+    .FastNav ul > li > a:not(.Btn) {
+        color: #333 !important
+    }
+
+    .NavSVG {
+        display: inline-block !important
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .DText {
+        font-size: 36px
+    }
+
+    .DText-Cont {
+        width: 176px
+    }
+
+    .UnderScore {
+        margin-top: -30px;
+        margin-left: 3px
+    }
+
+    .FastnD-Truck {
+        border-radius: 55px;
+        margin-left: 50px
+    }
+
+    .FastBody-Body {
+        padding: 0px 17px
+    }
+
+    .FastBody-Body > div {
+        margin-top: 100px
+    }
+
+    .Meal img {
+        width: 290px;
+        height: 254px
+    }
+
+    .Meal-Name-Cont {
+        padding: 14px
+    }
+
+    .Meal-Name {
+        bottom: 35px;
+        font-size: 25px;
+        max-width: 65%
+    }
+
+    .Meal-Name-Right {
+        right: 14px
+    }
+
+    .Meal-Name-Left {
+        left: 14px
+    }
+
+    .Meal-Desc {
+        padding: 16px 18px;
+        max-width: 226px;
+        min-width: 226px
+    }
+
+    .Meal-Price span {
+        font-size: 29px
+    }
+
+    .Meal-Price {
+        font-size: 17px
+    }
+
+    .Meals-Cont > div {
+        margin-top: 50px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .App > :first-child {
+        margin: 27px 15px;
+        padding: 10px 27px
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .Footer {
+        margin-top: 105px;
+        flex-flow: nowrap column;
+        justify-content: center
+    }
+
+    .Footer > div:not(:first-child) {
+        margin-top: 23px
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .DText {
+        font-size: 19px
+    }
+
+    .DText-Cont {
+        width: 92px
+    }
+
+    .UnderScore {
+        margin-top: -17px;
+        margin-left: 2px
+    }
+
+    .DTextNText {
+        margin-top: 11px;
+        line-height: 20px
+    }
+
+    .FastnD-Truck {
+        border-radius: 24px;
+        margin-left: 17px
+    }
+
+    .App > :first-child {
+        margin: 0px;
+        padding: 10px 18px
+    }
+
+    .FastBody {
+        margin-top: 41px
+    }
+
+    .Title {
+        font-size: 20px
+    }
+
+    .Hungry-Steps > div > div {
+        font-size: 15px
+    }
+
+    .FastBody-Body > div {
+        margin-top: 70px
+    }
+
+    .Hungry-Steps > div {
+        padding: 20px 35px
+    }
+
+    .FastBody-Body {
+        padding: 0px
+    }
+
+    .Meal img {
+        width: 100%;
+        height: 242px
+    }
+
+    .Meal-Desc {
+        padding: 16px;
+        max-width: 207px;
+        min-width: 207px
+    }
+
+    .Meal-Name {
+        font-size: 20px;
+        max-width: 153px
+    }
+
+    .Meal:first-child, .Meals-Cont > div {
+        margin-top: 38px
+    }
+
+    .Read-Sug > a {
+        font-size: 13px;
+        padding: 11px 34px
+    }
+
+    .WeEat-Cont {
+        margin-top: 39px
+    }
+
+    .WeEat > :not(img) {
+        margin-top: 11px
+    }
+
+    .WeEat-Name {
+        font-size: 18px
+    }
+}
